@@ -1,0 +1,25 @@
+/* body{
+    padding: 0;
+    margin: 0;
+} */
+.header {
+    display: flex;
+}
+#logoword{padding: 0;,margin: 0; ;}
+#logoword a{
+    display: flex;
+    padding: 3px;
+}
+#logoword a:first-child {
+    margin-left: -25px;
+}
+#logoword a:last-child {
+    width:100px ;
+    height: 15px;
+    margin-left: 10px;
+}
+.search img{
+    width:15px ;
+    height:15px;
+    background-image:./images/107122.png ;
+}
