@@ -53,3 +53,21 @@
 .content{
     display: flex;
 }
+.sidebar {
+    flex: 1;
+}
+.main-section{
+    flex: 3;
+}
+table {
+    border-spacing: 0;
+    border: solid 1px black;
+    pa
+        
+}
+table p{
+    margin: 0;
+}
+table h1:first-child{
+    text-align: left;
+}
