@@ -57,11 +57,11 @@
     flex: 1;
 }
 .main-section{
-    flex: 3;
+    flex: 2;
 }
 table {
     border-spacing: 0;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     pa
         
 }
@@ -70,4 +70,13 @@ table p{
 }
 table h1:first-child{
     text-align: left;
+    font: 2em  'Linux Libertine','Georgia','Times',serif;;
+    
 }
+tr {
+    border-bottom: 1px solid #ddd;
+  }
+  .right-section{
+    flex: 1;
+    flex-wrap: wrap;
+  }
