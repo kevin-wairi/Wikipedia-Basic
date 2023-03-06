@@ -6,9 +6,9 @@
     display: flex;
     justify-content: space-between;
 }
-.header .flexbox  {
+/* .header .flexbox  {
     border: solid  2px red;
-}
+} */
 #logoword{padding: 0;
     margin: 0; ;}
 #logoword a{
@@ -17,6 +17,11 @@
 }
 .box-1{
     display:flex;
+}
+.box-3 ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding-right: 20px;
 }
 #logoword a:first-child {
     margin-left: -25px;
@@ -30,9 +35,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px ;
+    width: 500px ;
     height: 35px;
-    border:thin solid black
+    border: 1px solid grey
 }
 .search img{
     width:20px ;
@@ -41,10 +46,10 @@
     padding-left: 8px;
     }
 .search input{
-     width:360px ;
+     width:450px ;
     height:25px;
     border: none;
     }
-.signUp {
-   
+.content{
+    display: flex;
 }
