@@ -5,6 +5,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    height: 100px;
+    /* background-color: red; */
 }
 /* .header .flexbox  {
     border: solid  2px red;
@@ -50,11 +52,17 @@
     height:25px;
     border: none;
     }
-.content{
-    display: flex;
+    /* sidebar */
+.sidebar ul li{
+    list-style-type: none;
+    padding-top: 10px;
 }
 .sidebar {
     flex: 1;
+}
+/* main content section */
+.content{
+    display: flex;
 }
 .main-section{
     flex: 2;
@@ -62,7 +70,6 @@
 table {
     border-spacing: 0;
     /* border: solid 1px black; */
-    pa
         
 }
 table p{
@@ -73,9 +80,7 @@ table h1:first-child{
     font: 2em  'Linux Libertine','Georgia','Times',serif;;
     
 }
-tr {
-    border-bottom: 1px solid #ddd;
-  }
+/* .right-section */
   .right-section{
     flex: 1;
     flex-wrap: wrap;
